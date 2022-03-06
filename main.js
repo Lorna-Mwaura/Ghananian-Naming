@@ -6,7 +6,7 @@ maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 let userForm = document.getElementById("form")
-userForm.addEventListener("submit",(eventLona)=>{
+userForm.addEventListener("submit", (eventLona) => {
     eventLona.preventDefault()
     // let gender = document.userdata.gender.value;
     // alert(gender)
@@ -21,22 +21,7 @@ function calculateBirthDate() {
     let gender = document.userdata.gender.value;
     let d = Math.floor((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7)
     if (gender == "male") {
-        alert (" your Akan name is " + maleNames[d]);
-    }
-    else if (gender==="female") 
-        alert (" your Akan name is " + femaleNames[d]);}
-    
-// function gender () {
-// let daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-
-
- 
-//  let index;
- 
-//  if (dayOfWeek == 0){
-//    index = 6;
-//  } else {
-//    index = dayOfWeek - 1;
-//  }
-//  console.log(index);
- 
+        alert(" your Akan name is " + maleNames[d]);
+    } else if (gender === "female")
+        alert(" your Akan name is " + femaleNames[d]);
+}

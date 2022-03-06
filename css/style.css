@@ -2,8 +2,9 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
-font-size: large;
+    font-size: large;
 }
+
 form {
     text-align: left;
     border-radius: 5px;
@@ -11,7 +12,8 @@ form {
     width: 80%;
     margin-left: 25%;
 }
+
 img {
     width: 400px;
     height: 200px;
- }
+}
