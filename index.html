@@ -26,7 +26,7 @@
                 <P>Hence, insert your birthdate, and year born to know which would be your name in Akan.</P>
             </section>
 
-            <form name="userdata">  
+            <form id="form" name="userdata">  
                 <label for="year-input">
                     Year:
                     <input id="year-input" type="number" name="year-of-birth" value="" required>
@@ -45,7 +45,8 @@
                     <input id="male-input" type="radio" name="gender" value="male" required>
                     Female
                     <input id="female-input" type="radio" name="gender" value="female" required>
-                    <button id="btn" type="submit" onclick="calculateBirthDate()">Generate Name</button>
+                    <!-- <button id="btn" type="submit" onclick="calculateBirthDate()">Generate Name</button> -->
+                    <input id="submit" type="submit" value="submit">
             </form>
         </article>
         <script src="main.js">
