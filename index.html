@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akan Naming Generator</title>
+    <link href="Css/Ip.css" rel="stylesheet" type="text/css">
+
 </head>
+
 <body>
-    
+    <h1>Akan Naming Generator</h1>
+    <main>
+        <article>
+            <section>
+                <p> Hello! Lets try out something fun. This webapplication aids us in generating our names according to the Akan culture in Ghana, whereby, names are generated according to the day of the week one was born. </p>
+                <P>Hence, insert your birthdate, and year born to know which would be your name in Akan.</P>
+            </section>
+            <form>
+                <label for="year-of-birth">
+                    Year:
+                    <input id="year-input" type="number" name="year-of-birth" value="" required>
+                </label>
+                <label for="month-of-birth">
+                    Month:
+                    <input id="month-input" type="number" name="month-of-birth" value="" required>
+                </label>
+                <label for="day-of-birth">
+                    Day:
+                    <input id="day-input" type="number" name="day-of-birth" value="" required>
+                </label>
+                <label for="gender">
+                    <p>Select your gender: </p>
+                    Male
+                    <input id="male-input" type="radio" name="gender" value="male" required>
+                    Female
+                    <input id="female-input" type="radio" name="gender" value="female" required>
+                <button id="btn btn-primary btn-sm" type="submit">Generate Name</button>
+             
+            </form>
+    </main>
+    <script src="IP2.js"></script>
 </body>
+
 </html>
