@@ -36,10 +36,7 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
  }
  console.log(index);
  if (gender == "male") {
-   document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleNames[index];
-   document.getElementById('display-name').textContent = "Here is your Akan name:
+    alert = " your Akan name is " + maleNames[index];
 
-else if (gender==="female") {
-    document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleNames[index];
-   document.getElementById('display-name').textContent = "Here is your Akan name:
-}
+else (gender==="female") 
+    alert = " your Akan name is " + femaleNames[index];}
