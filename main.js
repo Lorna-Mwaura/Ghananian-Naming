@@ -29,10 +29,10 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
  
  let index;
  
- if (dayOfWeekNumber == 0){
+ if (dayOfWeek == 0){
    index = 6;
  } else {
-   index = dayOfWeekNumber - 1;
+   index = dayOfWeek - 1;
  }
  console.log(index);
  if (gender == "male") {
