@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
-
+font-size: large;
 }
 form {
     text-align: left;
@@ -12,6 +12,6 @@ form {
     margin-left: 25%;
 }
 img {
-    width: 200px;
+    width: 400px;
     height: 200px;
  }
