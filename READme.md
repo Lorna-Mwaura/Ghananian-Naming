@@ -1,5 +1,5 @@
 # Title
-## Ghana-Akanian Naming
+## Ghana-Akan Naming
 
 # Table of content
 * Description
@@ -19,7 +19,7 @@ or click on this live link  https://lorna-mwaura.github.io/Ghananian-Naming/
 
 
 ## Technologies Used
-Languages used are HTML and Css.
+Languages used are HTML,Css and Javascript
 
 ### License
 Copyright (c) 2022 [Click to view license](LICENSE)
